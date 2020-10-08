@@ -3,12 +3,13 @@
   <head>
     <link rel="stylesheet" href="css/opening_style.css">
     <meta charset="utf-8">
-    <title></title>
+    <title>CLICK EGG</title>
   </head>
   <body>
     <a href="other_pages/index.html">
       <img src="images/egg.png" alt="egg">
     </a>
-    <h1>(click egg)</h1>
+    <h1>(click egg) <br> (please note link does not work, due to funky file locations. I will never use the funkyness again.) </h1>
+    <a href="index.html">okay</a>
   </body>
 </html>
