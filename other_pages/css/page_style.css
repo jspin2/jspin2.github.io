@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, sans-serif;
+}
+
+body{
+  background-color: #D9C6B0;
+  font-family: verdana, arial, sans-serif;
+  color: #8C4303;
+}
+
+header{
+  background-color: #F29F05;
+  padding: 2% 4% 2% 4%; /* NOTE: TOP RIGHT BOTTOM LEFT: TRBL (trouble) */
+}
+header img{
+  /* NOTE: if i figure out how to have the egg2_notext on the right without interferance, i will use this */
+
+}
+header h1{
+  color:#8C4303;
+  font-size: 35pt;
+}
+header h2{
+  color:#D9C6B0;
+  font-size: 23pt;
+  font-style: italic;
+}
+figure{
+  margin-bottom: 1%;
+  width: 20%;
+  float:left;
+  margin-right: 2%;
+}
+figure img{
+  /* use % when you want a responsive img */
+  width:100%;
+}
+figcaption{
+  text-align: center;
+  padding: 2%;
+  font-style: italic;
+}
+nav {
+  background-color: #8C4303;
+  color: #D9C6B0;
+  padding: 1% 4% 1% 4%;
+}
+nav a:link{
+  padding: 0.5%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav a:visited{
+  color: #F29F05;
+}
+nav a:hover{
+  color:#8C4303;
+  background-color: #F29F05;
+}
+article{
+  padding: 2% 4% 2% 4%;
+  margin-right: 30%;
+}
+article h1{
+  color: #8C4303;
+  font-size: 25pt;
+  text-transform: capitalize;
+  font-style: italic;
+  margin-bottom: 1.5%;
+}
+article h2{
+  font-size: 20pt;
+  margin-bottom: 1%;
+  color: #D96704;
+  text-transform: uppercase;
+  font-style: italic;
+  padding-top: 2%;
+}
+article h3{
+  padding-bottom:1%;
+}
+article p{
+  margin-bottom: 1%;
+  font-size: 15pt;
+}
+footer{
+  font-size: 15pt;
+  background-color: #F29F05;
+  color: #8C4303;
+  padding: 2% 4% 2% 4%;
+}

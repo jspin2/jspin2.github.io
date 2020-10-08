@@ -1,0 +1,11 @@
+*{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  background-color: #D9C6C6;
+}
+h1{
+  padding-top: 10%;
+  font-family: helvetica, sans-serif;
+  font-size: 12px;
+}
