@@ -14,19 +14,22 @@ header{
   background-color: #F29F05;
   padding: 2% 4% 2% 4%; /* NOTE: TOP RIGHT BOTTOM LEFT: TRBL (trouble) */
 }
-header img{
-  /* NOTE: if i figure out how to have the egg2_notext on the right without interferance, i will use this */
-
+section.header{
+display: flex;
+text-align: left;
+flex-direction: column;
 }
-header h1{
+.header h1{
   color:#8C4303;
   font-size: 35pt;
 }
-header h2{
+.header h2{
   color:#D9C6B0;
   font-size: 23pt;
   font-style: italic;
+  text-transform: uppercase;
 }
+
 figure{
   margin-bottom: 1%;
   width: 20%;
@@ -60,8 +63,8 @@ nav a:hover{
   background-color: #F29F05;
 }
 article{
+  flex-direction: column;
   padding: 2% 4% 2% 4%;
-  margin-right: 30%;
 }
 article h1{
   color: #8C4303;
@@ -85,6 +88,17 @@ article p{
   margin-bottom: 1%;
   font-size: 15pt;
 }
+section.article_double{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+section.article_individual{
+  padding: 0% 2% 2% 0%;
+  flex-direction: column;
+}
+
 footer{
   font-size: 15pt;
   background-color: #F29F05;
