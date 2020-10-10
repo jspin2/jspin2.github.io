@@ -35,6 +35,7 @@ figure{
   width: 30%;
   float:left;
   margin-right: 2%;
+  padding-right: 2%
 }
 figure img{
   /* use % when you want a responsive img */
@@ -64,9 +65,13 @@ nav a:hover{
 }
 article{
   flex-direction: column;
-  padding: 2% 4% 2% 4%;
+  line-height: 150%;
+  /* padding-left: 4%;
+  padding-right: 4%; */
 }
 article h1{
+  margin-top: 2%;
+  margin-left: 4%;
   color: #8C4303;
   font-size: 25pt;
   text-transform: capitalize;
@@ -89,14 +94,16 @@ article p{
   font-size: 15pt;
 }
 section.article_double{
+  margin: 2%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 
 }
 section.article_individual{
-  padding: 0% 2% 2% 0%;
   flex-direction: column;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 footer{
