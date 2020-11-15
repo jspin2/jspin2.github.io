@@ -29,7 +29,12 @@ flex-direction: column;
   font-style: italic;
   text-transform: uppercase;
 }
-
+section.logo figure img{
+  width: 10%;
+  position: absolute;
+  top:2%;
+  right:2%;
+}
 figure{
   margin-bottom: 1%;
   width: 30%;
@@ -50,11 +55,13 @@ nav {
   background-color: #8C4303;
   color: #D9C6B0;
   padding: 1% 4% 1% 4%;
+  transition: all, 0.5s;
 }
 nav a:link{
   padding: 0.5%;
   text-decoration: none;
   text-transform: uppercase;
+  transition: all, 0.5s;
 }
 nav a:visited{
   color: #F29F05;
@@ -105,7 +112,29 @@ section.article_individual{
   padding-left: 2%;
   padding-right: 2%;
 }
+section.bio{
+  display: grid;
+  grid-template-columns: 1vh, 1vh;
+  margin: 1% 60% 1% 1%;
+  height: 100vh;
+  /* trbl */
+}
+section.bio figure{
+  grid-column :1/2;
 
+  width: 100%;
+}
+section.bio figure img{
+width:100%;
+}
+section.bioContent{
+grid-column: 2 / 3;
+padding: 0 5% 0 5%;
+}
+section.bioContent p{
+  padding: 3% 0 3% 0;
+  font-size: 120%;
+}
 footer{
   font-size: 15pt;
   background-color: #F29F05;
