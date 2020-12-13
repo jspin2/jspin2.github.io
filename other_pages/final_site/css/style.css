@@ -1,0 +1,381 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  font-weight: normal;
+}
+.welcome_holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10% 20% 20% 20%;
+}
+.welcome_holder h1{
+  font-size: 1000%;
+  font-weight: normal;
+  color: #2B2C30;
+}
+.welcome_holder figure{
+  width: 40%;
+}
+.welcome_links{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.welcome_links a {
+  padding: 0 5% 0 5%;
+  font-size: 20px;
+  color: #384083;
+}
+
+
+
+
+
+
+
+
+.searchbar_holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10%;
+  background-color: #E2E2E2;
+}
+.searchbar{
+  margin: 1% 0 1% 0;
+  padding: 0.5%;
+  font-size:80%;
+  width: 60%;
+  height: 5%;
+  background-color: white;
+  border-radius: 1px;
+  border-color: black;
+}
+.quit_link{
+  color: #ED8383;
+  width: 30px;
+  height: 30px;
+  background-color: #ED8383;
+  position: fixed;
+  top: 2%;
+  right: 2%;
+}
+.directory_links_holder{
+  height: 80fr;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.directory_links_holder a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5% 10% 5% 10%;
+  margin: 2%;
+
+}
+.directory_links_holder figure{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 300%;
+}
+.directory_links_holder figure img{
+  width: 100%;
+  color:#384083;
+}
+.directory_links_holder p{
+  font-size: 150%;
+  color: #384083;
+}
+
+
+
+.logo a{
+  display: flex;
+  align-items: center;
+  color: #2B2C30;
+  margin-top: 1%;
+  flex-direction: row;
+}
+.logo figure{
+  width: 20%;
+  margin-left: 5%;
+}
+.logo figure img{
+  width:100%;
+}
+.logo h1{
+padding-top:1%;
+color: #22264F;
+}
+.logo a{
+  text-decoration: none;
+}
+.news_links_holder{
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  width: 24%;
+}
+.news_links_holder a{
+  color:  #2B2C30;
+  text-decoration: none;
+  font-size: 110%;
+}
+.news_article_holder{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr;
+  margin: 5% 5% 5% 5%;
+}
+.news_article_holder .news_article_headline{
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-column: 1/3;
+  grid-row: 1/1;
+  border: solid;
+  border-width: 1px;
+  width: 200%;
+  height: 70%;
+}
+.news_article_holder a{
+  color: black;
+  text-decoration: none;
+}
+.news_article_headline figure{
+  grid-column: 1/2;
+  height:100%;
+}
+.news_article_headline figure img{
+  object-fit: cover;
+  width: 100%;
+  height: 70%;
+}
+.news_article_headline .headline{
+  grid-column: 2/3;
+  margin: 2% 12% 2% 2%;
+}
+.news_article_headline .headline h1{
+  font-weight: bold;
+  line-height: 1.3;
+}
+.news_article_headline .headline p{
+  font-size: 11pt;
+}
+
+.news_article_holder .small_articles{
+  display: grid;
+  grid-column: 1/3;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2%;
+  margin: 2% 0 0 0;
+}
+.news_article_holder .article1{
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-width: 1px;
+}
+.article1 figure{
+  width: 100%;
+  height: 200px;
+
+}
+.article1 figure img{
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+.article1 h1{
+  font-size: 110%;
+  font-weight: bold;
+  padding: 1% 0 1% 0;
+}
+.webpage_balance{
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+}
+.webpage_balance .main_article_holder{
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  margin: 1% 10% 5% 5%;
+}
+.main_article_holder h1{
+  font-weight: bold;
+}
+.main_article_holder figure{
+  width: 100%;
+  height: 30%;
+}
+.main_article_holder figure img{
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+}
+.main_article_holder p{
+  padding: 1% 0 3% 0;
+  line-height: 140%;
+}
+.footer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 10%;
+  background-color: #22264F;
+}
+.footer figure{
+  height: 100%;
+  width:8%;
+  padding: 2% 0 2% 2%;
+}
+.footer figure img{
+  height:60%;
+  width:60%
+}
+.footer p{
+  color: white;
+}
+.news_article_holder .advertisement_long{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+
+.webpage_balance .ad_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  grid-column: 2/3;
+}
+
+
+
+
+.advertisement1{
+  position: fixed;
+  top: 20%;
+  left: 40%;
+  opacity: 0;
+  transition: all .5s .35s ease-out;
+  will-change: opacity;
+}
+.advertisement1.is-visible{
+  opacity:100%;
+}
+.advertisement2{
+  opacity: 0;
+  position: fixed;
+  top: 30%;
+  left: 20%;
+  transition: all .5s .60s ease-out;
+  will-change: opacity;
+
+}
+.advertisement2.is-visible{
+  opacity:100%;
+}
+.advertisement3{
+  opacity: 0;
+  position: fixed;
+  bottom: 5%;
+  left: 10%;
+  transition: all .5s .80s ease-out;
+  will-change: opacity;
+}
+.advertisement3.is-visible{
+  opacity:100%;
+}
+/* second value is delay */
+.advertisement4{
+  opacity: 0;
+  position: fixed;
+  top: 10%;
+  right: 10%;
+  transition: all .5s 1s ease-out;
+  will-change: opacity;
+}
+.advertisement4.is-visible{
+  opacity:100%;
+}
+.advertisement5{
+  opacity: 0;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  transition: all .5s 1.2s ease-out;
+  will-change: opacity;
+}
+.advertisement5.is-visible{
+  opacity:100%;
+}
+.advertisement6{
+  opacity: 0;
+  position: fixed;
+  top: 10%;
+  left: 23%;
+  transition: all .5s 1.2s ease-out;
+  will-change: opacity;
+}
+.advertisement6.is-visible{
+  opacity:100%;
+}
+.advertisement7{
+  opacity: 0;
+  position: fixed;
+  top: 10%;
+  left: 2%;
+  transition: all .5s 1.6s ease-out;
+  will-change: opacity;
+}
+.advertisement7.is-visible{
+  opacity:100%;
+}
+.advertisement9{
+  opacity: 0;
+  position: fixed;
+  top: 20%;
+  left: 20%;
+  transition: all .5s 1.7s ease-out;
+  will-change: opacity;
+}
+.advertisement9.is-visible{
+  opacity:100%;
+}
+.advertisement10{
+  opacity: 0;
+  position: fixed;
+  top:30;
+  left: 40%;
+  transition: all .5s 1.9s ease-out;
+  will-change: opacity;
+}
+.advertisement10.is-visible{
+  opacity:100%;
+}
+.advertisement10 img{
+  max-height: 70vh;
+}
+
+.advertisement1 figure{
+  width:100%
+}
+.advertisement figure img{
+  width:100%;
+}
